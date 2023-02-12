@@ -35,12 +35,12 @@ function SecondForm({ formData, setFormData }) {
             label="Select Country"
             onChange={(e) => { setFormData({ ...formData, source: e.target.value }) }}
           >
-            <MenuItem value={10}>Mumbai</MenuItem>
-            <MenuItem value={20}>Jaipur</MenuItem>
-            <MenuItem value={30}>Agra</MenuItem>
-            <MenuItem value={40}>Hyderabad</MenuItem>
-            <MenuItem value={50}>Chennai</MenuItem>
-            <MenuItem value={60}>Pune</MenuItem>
+            <MenuItem value={'Mumbai'}>Mumbai</MenuItem>
+            <MenuItem value={'Jaipur'}>Jaipur</MenuItem>
+            <MenuItem value={'Agra'}>Agra</MenuItem>
+            <MenuItem value={'Hyderabad'}>Hyderabad</MenuItem>
+            <MenuItem value={'Chennai'}>Chennai</MenuItem>
+            <MenuItem value={'Pune'}>Pune</MenuItem>
 
 
           </Select>
@@ -66,12 +66,12 @@ function SecondForm({ formData, setFormData }) {
             label="Select City"
             onChange={(e) => setFormData({ ...formData, destination: e.target.value })}
           >
-            <MenuItem value={10}>Mumbai</MenuItem>
-            <MenuItem value={20}>Jaipur</MenuItem>
-            <MenuItem value={30}>Agra</MenuItem>
-            <MenuItem value={40}>Hyderabad</MenuItem>
-            <MenuItem value={50}>Chennai</MenuItem>
-            <MenuItem value={60}>Pune</MenuItem>
+            <MenuItem value={'Mumbai'}>Mumbai</MenuItem>
+            <MenuItem value={'Jaipur'}>Jaipur</MenuItem>
+            <MenuItem value={'Agra'}>Agra</MenuItem>
+            <MenuItem value={'Hyderabad'}>Hyderabad</MenuItem>
+            <MenuItem value={'Chennai'}>Chennai</MenuItem>
+            <MenuItem value={'Pune'}>Pune</MenuItem>
 
 
           </Select>
